@@ -112,18 +112,18 @@ def get_relevant_passage(query, db, n_results):
 
 def make_rag_prompt(query, relevant_passage):
     escaped = relevant_passage.replace("'", "").replace('"', "").replace("\n", " ")
-    prompt = ("""You are a helpful and informative bot that answers questions using text from the reference passage included below. \
-    Be sure to respond in a complete sentence, being comprehensive, including all relevant background information. \
-    However, you are talking to a non-technical audience, so be sure to break down complicated concepts and \
-    strike a friendly and converstional tone. \
-    If the passage is irrelevant to the answer, you may ignore it.
+    prompt = ("""You are a helpful and friendly bot that answers questions using text from the reference passage included below. 
+    Remember, you are speaking to older adults who may not read or write. 
+    Use simple words. Explain everything clearly. 
+    Be sure to respond in complete sentences, and make sure to cover all important details. 
+    If the passage doesn't help answer the question, it's okay to ignore it.
     QUESTION: '{query}'
     PASSAGE: '{relevant_passage}'
     
     ANSWER:
     """).format(query=query, relevant_passage=escaped)
-  
     return prompt
+
 
 
 def generate_answer(prompt):
