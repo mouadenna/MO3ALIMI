@@ -58,10 +58,10 @@ class GeminiEmbeddingFunction(EmbeddingFunction):
     - Embeddings: Embeddings generated for the input documents.
     """
     def __call__(self, input: Documents) -> Embeddings:
-        gemini_api_key = "AIzaSyBYZ_7geqmnK6xrSe268-1nSLeuEwbzmTA"
+        gemini_api_key = "YOUR-API-KEY"
         if not gemini_api_key:
             raise ValueError("Gemini API Key not provided. Please provide GEMINI_API_KEY as an environment variable")
-        genai.configure(api_key="AIzaSyBYZ_7geqmnK6xrSe268-1nSLeuEwbzmTA")
+        genai.configure(api_key="YOUR-API-KEY")
         model = "models/embedding-001"
         title = "Custom query"
         return genai.embed_content(model=model,
