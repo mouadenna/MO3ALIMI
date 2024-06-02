@@ -31,6 +31,9 @@ MO3ALIMI is a platform designed to help illiterate adults learn the basics of li
 - **Stable Diffusion**: Generates images to support visual learning.
 - **Mini LLM**: Assists Stable Diffusion in image generation.
 
+<img src="Concept map.png" alt="MO3ALIMI Logo" width="1000"/>
+
+
 ### Experimental Technologies
 - **RAG System**: Attempted to use a Retrieval-Augmented Generation system, but it did not yield good results.
 - **Fine-Tuning**: Tried fine-tuning models, but we did not find a suitable dataset to finetune on.
