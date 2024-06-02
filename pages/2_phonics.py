@@ -66,7 +66,7 @@ pipe = st.session_state['pipe']
 
 
 # Set up the API key for Generative AI
-os.environ["GEMINI_API_KEY"] = "AIzaSyBYZ_7geqmnK6xrSe268-1nSLeuEwbzmTA"
+os.environ["GEMINI_API_KEY"] = "GEMINI_API_KEY"
 
 # Initial prompt to send to the model
 initial_prompt = """
@@ -189,7 +189,7 @@ def tts_predict(text="hello"):
 #sf.write("speech.wav", speech["audio"], samplerate=speech["sampling_rate"])
 
 if 'client' not in st.session_state:
-    st.session_state['client'] = MistralClient("m3GWNXFZn0jTNTLRe4y26i7jLJqFGTMX")
+    st.session_state['client'] = MistralClient("MISTRAL_API_KEY")
 
 client = st.session_state['client']
 
