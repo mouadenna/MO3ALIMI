@@ -56,27 +56,20 @@ To install MO3ALIMI, follow these steps:
     ```
 
 ## Usage
-To start the application, run:
+To start the application, you need a GPU to run the application efficiently. The application has been successfully tested on Hugging Face.
+
+To run the application, use:
 ```bash
 streamlit run app.py
 ```
-Follow the on-screen instructions to begin using the platform.
 
 ## User Interface
 The main interface includes:
-- **Homepage**: Welcoming screen with a logo and title.
+- **Homepage**: Welcoming screen.
 - **Phonics**: Interactive lessons for learning alphabets and phonics.
 - **Numeracy**: Lessons and quizzes on basic numeracy.
 - **Writing**: Guided exercises to practice writing.
 - **Quizzes Master**: Personalized quizzes to test and reinforce learning.
-
-### Sidebar
-The sidebar includes:
-- Customizable sidebar with a title "MO3ALIMI sidebar".
-- Option to select different subjects to start learning.
-
-### Warnings and Alerts
-- A warning message prompting users to select a subject to start learning.
 
 ## Configuration
 Configuration options can be set in the `config.yaml` file. Here, you can configure settings for the APIs, quiz difficulty, and other parameters.
