@@ -19,9 +19,8 @@ MO3ALIMI is a platform designed to help illiterate adults learn the basics of li
 - [Contributors](#contributors)
 
 ## Features
-- **Alphabet Learning**: Users can learn and practice alphabets through interactive lessons.
-- **Writing Practice**: Guided writing exercises to improve writing skills.
-- **Reading Practice**: Reading exercises to enhance reading ability.
+- **Phonics Practice**: Users can learn and practice phonics through interactive lessons.
+- **Writing Practice**: Guided writing exercises to improve writing skills. We created an interface to teach users how to write Arabic letters. We trained a Convolutional Neural Network (CNN) for this, but it was not efficient in real-life applications due to challenges with varying angles and non-centered Arabic letters.
 - **Basic Numeracy**: Lessons and quizzes on basic numeracy skills.
 - **Personalized Quizzes**: Tailored quizzes to reinforce learning and practice.
 - **Visual Learning**: Images generated to support visual learning.
@@ -91,11 +90,11 @@ Here are a few examples of how users can interact with MO3ALIMI:
 
 1. **Alphabet Lesson**:
     - Users are presented with letters and corresponding images.
-    - Audio guidance is provided through text-to-speech.
+    - Audio guidance is provided through text-to-speech as well as the user can respond with voice.
 
 2. **Writing Practice**:
     - Users trace letters on the screen.
-    - Immediate feedback is given on accuracy.
+    - Immediate feedback is given.
 
 
 
