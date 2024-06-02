@@ -100,6 +100,6 @@ Here are a few examples of how users can interact with MO3ALIMI:
 
 
 ## Contributors
-- **Mouad Ennasiry** - [mouadenna](https://github.com/mouadenna)
-- **Salim el mardi** - [contributorusername](https://github.com/salimelmardi)
-- **Reda El kate** - [contributorusername](https://github.com/redaelkate)
+- **Mouad Ennasiry** - [Mouad ennasiry](https://github.com/mouadenna)
+- **Salim el mardi** - [Salimelmardi](https://github.com/salimelmardi)
+- **Reda El kate** - [redaelkate](https://github.com/redaelkate)
