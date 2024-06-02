@@ -1,6 +1,3 @@
-Sure, I'll include the information about the attempts to use a Retrieval-Augmented Generation (RAG) system and fine-tuning, but with unsatisfactory results, in the README. Here's the updated version:
-
-```markdown
 # MO3ALIMI
 
 ![MO3ALIMI Logo](logo.png)
