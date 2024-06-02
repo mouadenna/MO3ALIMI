@@ -56,6 +56,7 @@ To install MO3ALIMI, follow these steps:
 
 ## Usage
 To start the application, you need a GPU to run the application efficiently. The application has been successfully tested on Hugging Face.
+Dont' forget to add you API's key.
 
 To run the application, use:
 ```bash
