@@ -66,7 +66,7 @@ pipe = st.session_state['pipe']
 
 
 # Set up the API key for Generative AI
-os.environ["GEMINI_API_KEY"] = "AIzaSyBYZ_7geqmnK6xrSe268-1nSLeuEwbzmTA"
+os.environ["GEMINI_API_KEY"] = "GEMINI_API_KEY"
 
 # Initial prompt to send to the model
 initial_prompt = """
