@@ -12,8 +12,6 @@ MO3ALIMI is a platform designed to help illiterate adults learn the basics of li
 - [Installation](#installation)
 - [Usage](#usage)
 - [User Interface](#user-interface)
-- [Configuration](#configuration)
-- [Dependencies](#dependencies)
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
@@ -69,21 +67,6 @@ The main interface includes:
 - **Writing**: Guided exercises to practice writing.
 - **Quizzes Master**: Personalized quizzes to test and reinforce learning.
 
-## Configuration
-Configuration options can be set in the `config.yaml` file. Here, you can configure settings for the APIs, quiz difficulty, and other parameters.
-
-## Dependencies
-MO3ALIMI relies on several external libraries and services:
-- Python 3.8+
-- Streamlit
-- Gemini API
-- Mistral
-- Whisper
-- Google TTS
-- Stable Diffusion
-- Mini LLM
-
-Refer to `requirements.txt` for a full list of dependencies.
 
 ## Examples
 Here are a few examples of how users can interact with MO3ALIMI:
