@@ -17,7 +17,6 @@ MO3ALIMI is a platform designed to help illiterate adults learn the basics of li
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Features
 - **Alphabet Learning**: Users can learn and practice alphabets through interactive lessons.
@@ -104,7 +103,3 @@ Here are a few examples of how users can interact with MO3ALIMI:
 - **Mouad Ennasiry** - [mouadenna](https://github.com/mouadenna)
 - **Salim el mardi** - [contributorusername](https://github.com/salimelmardi)
 - **Reda El kate** - [contributorusername](https://github.com/redaelkate)
-
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
