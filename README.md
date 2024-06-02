@@ -81,7 +81,7 @@ Here are a few examples of how users can interact with MO3ALIMI:
 
 
 
-## Contributors
+## Team members:
 - **Mouad Ennasiry** - [Mouad ennasiry](https://github.com/mouadenna)
 - **Salim el mardi** - [Salimelmardi](https://github.com/salimelmardi)
 - **Reda El kate** - [redaelkate](https://github.com/redaelkate)
