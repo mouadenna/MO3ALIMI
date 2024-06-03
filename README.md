@@ -82,9 +82,9 @@ Here are a few examples of how users can interact with MO3ALIMI:
 
 2. **Writing Practice**:
     - Users trace letters on the screen.
-    - Immediate feedback is given.
-
-
+    - Immediate feedback is given
+## Demo
+https://github.com/mouadenna/MO3ALIMI/assets/146549050/026eb8fd-ceac-40fe-b815-104e15ad791d
 
 ## Team members:
 - **Mouad Ennasiry** - [Mouad ennasiry](https://github.com/mouadenna)
