@@ -16,6 +16,7 @@ the project is available as well on [huggingface](https://huggingface.co/spaces/
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
+- [DEMO](#DEMO)
 
 ## Features
 - **Phonics Practice**: Users can learn and practice phonics through interactive lessons.
